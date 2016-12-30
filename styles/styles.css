@@ -1,0 +1,539 @@
+
+/*****************************************************************/
+/* BASE ELEMENTS *************************************************/
+/*****************************************************************/
+@font-face
+    {
+         font-family: BaseFont;
+         src: url(../fonts/HelveticaNeueLTStd_Md.otf);
+    }
+
+@font-face
+    {
+         font-family: FormFont;
+         src: url(../fonts/HelveticaNeueLTStd_Bd.otf);
+    }
+
+@font-face
+    {
+         font-family: LightFont;
+         src: url(../fonts/HelveticaNeueLTStd_Lt.otf);
+    }
+
+html 
+    {
+        -webkit-text-size-adjust: 100%; 
+        -ms-text-size-adjust: 100%; 
+	    font-size: 100%; 
+        overflow-y: scroll; 
+        background: #e9e9e9;
+	    min-width: 940px;
+        height: 100%;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+body, button, input, select, textarea 
+    {
+        font-family: BaseFont;
+	    font-size: 11px; 
+	    color: #393939;
+        line-height: 1.2; 
+        height: 100%;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+*,*:hover,*:focus,*:active
+    { 
+	    outline: 0px none; 
+	    color: #393939;
+    }
+
+* {margin:0;padding:0;} 
+
+
+/*****************************************************************/
+/* CONTENT *******************************************************/
+/*****************************************************************/
+.header 
+    {
+	    position: relative;
+	    width: 940px; 
+        clear: left;
+	    margin: -40px auto 80px auto;
+    }
+
+.Logo 
+    {
+        float: left;
+    }
+
+.Profile
+    {
+        height: 40px;
+        width: 200px;
+        float: right;
+    }
+
+.FB
+    {
+        height: 37px;
+        width: 188px;
+        float: right;
+        cursor: pointer;
+    }
+
+.FBImg 
+    {
+	    position: relative;
+	    margin: 7px auto auto auto;
+        margin-right: -50px;
+    }
+.FBImg2
+    {
+	    position: relative;
+	    margin: 7px auto auto 188px;
+    }
+
+.ReviveImg 
+    {
+        position: relative;
+	    width: 100%;
+        height: 390px;
+        overflow: hidden;
+        background-color: #000;
+    }
+
+.ProfileDiv 
+    {
+        float: right;
+        margin-top: 6px;
+        margin-right: 12px;
+        vertical-align: middle;
+        text-align: right;
+    }
+
+.Line_Title
+    {
+        position: relative;
+	    width: 940px;
+	    clear:left;
+        margin: auto auto auto auto;
+    }
+
+.Line_Gray
+    {
+        position: relative;
+	    width: 100%;
+        height:1px; 
+	    margin: 6px auto auto auto;
+        border-bottom: solid 1px #cfcfcf;
+    }
+
+.Line_White
+    {
+        position: relative;
+	    width: 100%;
+        height:1px; 
+	    margin: -1px auto auto auto;
+        border-bottom: solid 1px #f1f1f1;
+    }
+
+.WelcomeIntroBlock
+    {
+        position: relative;
+	    width: 940px;
+	    margin: 40px auto auto auto;
+        clear: left;
+    }
+
+.Article
+    {
+        position: relative;
+	    width: 940px;
+        height: 180px;
+	    margin: 40px auto auto auto;
+        clear: left;
+    }
+
+.Music
+    {
+        position: relative;
+	    width: 940px;
+        height: 180px;
+	    margin: 40px auto auto auto;
+        clear: left;
+    }
+
+.Imagery
+    {
+        position: relative;
+	    width: 940px;
+	    margin: 40px auto auto auto;
+        clear: left;
+    }
+
+.WelcomeIntro
+    {
+        position: relative;
+	    width: 450px;
+        float: left;
+	    margin: auto auto auto auto;
+        margin-right: 40px;
+    }
+
+.WelcomeIntroRight
+    {
+        position: relative;
+	    width: 450px;
+        float: left;
+	    margin: auto auto auto auto;
+    }
+
+.WelcomeTxt
+    {
+        position: relative;
+        float: left;
+	    width: 500px;
+        height: 300px;
+	    margin: -335px auto auto auto;
+	    font-family: FormFont;
+	    font-size: 60px; 
+	    color: #ffffff;
+        opacity: .5;
+        text-align: left;
+        overflow:hidden;
+    }
+
+.WelcomeSubTxt
+    {
+        position: relative;
+        float: left;
+	    width: 500px;
+	    margin: -100px auto auto auto;
+	    font-family: LightFont;
+	    font-size: 22px; 
+	    color: #ffffff;
+        opacity: .5;
+        text-align: left;
+    }
+
+.WelcomeTxt2
+    {
+        position: relative;
+        float: left;
+	    width: 514px;
+        height: 150px;
+	    margin: -325px auto auto auto;
+        line-height:70px;
+        margin-left: 50px;
+	    font-family: FormFont;
+	    font-size: 70px; 
+	    color: #ffffff;
+        opacity: .5;
+        text-align: left;
+        overflow:hidden;
+    }
+
+.WelcomeSubTxt2
+    {
+        position: relative;
+        float: left;
+	    width: 500px;
+        height: 112px;
+	    margin: -170px auto auto auto;
+        margin-left: 50px;
+	    font-family: LightFont;
+	    font-size: 18px; 
+	    color: #ffffff;
+        opacity: .5;
+        text-align: left;
+        clear: right;
+        overflow:hidden;
+    }
+
+.WelcomeSubTxt3
+    {
+        position: relative;
+        float: left;
+	    width: 450px;
+	    margin: -80px auto auto auto;
+        margin-left: 50px;
+	    font-family: LightFont;
+	    font-size: 14px; 
+	    color: #ffffff;
+        opacity: .5;
+        text-align: left;
+    }
+
+.SaveBook
+    {
+        position: relative;
+	    width: 150px;
+	    margin: 20px auto auto auto;
+	    font-family: LightFont;
+	    font-size: 14px; 
+        clear: right;
+    }
+
+.FBStats
+    {
+        position: relative;
+	    width: 150px;
+        height:80px;
+	    margin: 20px auto auto auto;
+	    font-family: LightFont;
+	    font-size: 14px; 
+        clear: right;
+    }
+
+.fbTxt
+    {
+        position: relative;
+        float: left;
+	    margin: auto auto auto auto;
+        margin-right: 20px;
+	    font-family: LightFont;
+	    font-size: 14px; 
+	    color: #393939;
+        opacity: .5;
+        text-align: center;
+    }
+
+.fbTxtRght
+    {
+        position: relative;
+        float: left;
+	    margin: auto auto auto auto;
+	    font-family: LightFont;
+	    font-size: 14px; 
+	    color: #393939;
+        opacity: .5;
+        text-align: center;
+    }
+
+.Form
+    {
+        position: relative;
+	    width: 940px;
+	    margin: 10px auto 62px auto;
+    }
+
+.Form_Font
+    {
+        position: relative;
+	    width: 940px;
+	    margin: 20px auto auto auto;
+        background: #e9e9e9;
+        border: none;
+	    font-family: FormFont;
+	    font-size: 72px; 
+	    color: #393939;
+        line-height: 1.2; 
+	    text-decoration: underline;
+    }
+
+.WelcomeBlk
+    {
+        position: relative;
+	    width: 940px;
+	    margin: 30px auto auto auto;
+    }
+
+.Images
+    {
+        position: relative;
+	    width: 1000px;
+	    margin: 30px auto 30px auto;
+        padding-left: 59px;
+    }
+
+.Image
+    {
+	    width: 140px; 
+	    float: left; 
+	    margin-right: 60px;
+        margin-bottom: 30px;
+    }
+
+.ImageRight
+    {
+	    width: 140px; 
+	    float: left; 
+	    clear: right;
+    }
+
+.ImgDiv
+    {
+	    height: 140px; 
+	    width: 140px; 
+        overflow: hidden; 
+	    background-color: #898989;
+    }
+
+.ImgSpcr
+    {
+	    width: 140px; 
+	    height: 140px;
+        overflow: hidden; 
+    }
+
+.ImageSaved
+    {
+        position: relative;
+	    width: 940px; 
+	    float: left; 
+    }
+
+.WelcomeIntro2
+    {
+        position: relative;
+	    width: 455px; 
+	    float: right; 
+	    margin: -258px auto auto auto;
+    }
+
+.ImgDivSaved
+    {
+	    height: 200px; 
+	    width: 200px; 
+	    background-color: #898989;
+    }
+
+.ImgSpcrSaved
+    {
+	    width: 200px; 
+	    height: 200px;
+        float: left;
+    }
+
+.TextDivSaved 
+    {
+        width: 720px; 
+        position: relative; 
+        float: right; 
+        margin-top:-200px; 
+        height: 200px;
+    }
+
+.Link
+    {
+        color: #393939;
+        line-height: 1.2;
+        color: #4fbbee;
+    }
+
+.WelcomeTitleText
+    {
+        font-family: BaseFont;
+	    font-size: 22px; 
+	    color: #393939;
+        line-height: 1.2; 
+ 	    width: 455px;
+    }
+
+.WelcomeSubText
+    {
+        font-family: LightFont;
+	    font-size: 16px; 
+	    color: #393939;
+        line-height: 1.2; 
+ 	    width: 455px;
+        opacity: .65;
+        margin-top: 10px;
+    }
+
+.SearchResultsTitleText
+    {
+        font-family: FormFont;
+	    font-size: 14px; 
+	    color: #393939;
+        line-height: 1.2; 
+ 	    width: 140px;
+        height: 18px;
+        overflow: hidden; 
+	    margin: 10px auto auto auto;
+    }
+
+.SearchResultsText
+    {
+        font-family: BaseFont;
+	    font-size: 12px; 
+	    color: #393939;
+        line-height: 1.2; 
+ 	    width: 140px;
+        height: 44px;
+        overflow: hidden;
+	    margin: 4px auto auto auto;
+        opacity: .65;
+    }
+
+.SearchResultsTitleTextSaved
+    {
+        font-family: BaseFont;
+	    font-size: 36px; 
+	    color: #393939;
+        line-height: 1.2; 
+    }
+
+.SearchResultsTextSaved
+    {
+        font-family: LightFont;
+	    font-size: 24px; 
+	    color: #393939;
+        line-height: 1.2; 
+        opacity: .65;
+        margin-top: 12px;
+    }
+
+.Footer
+    {   
+        position:relative;
+	    width: 940px;
+	    margin: 20px auto auto auto;
+        float:none;
+        vertical-align:bottom;
+    }
+
+.FooterLeft
+    {
+	    margin: 10px auto auto auto;
+        height: 40px; 
+        width: 200px; 
+        float: left;
+    }
+
+.FooterLeftText
+    {
+         float: left; 
+         font-size: 12px;
+         font-family: LightFont;
+         margin-top: 6px; 
+         vertical-align: middle; 
+    }
+
+.FooterRight
+    {
+	    margin: 10px auto auto auto;
+        width: 200px; 
+        float: right;
+    }
+
+.FooterRightText
+    {
+         float: right; 
+         font-size: 12px; 
+         font-family: LightFont;
+         margin-top: 6px; 
+         vertical-align: middle; 
+         text-align: right;
+    }
